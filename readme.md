@@ -17,6 +17,8 @@ $ vagrant up
 ###Other Details
 - There is a default project created in /var/www on your new guest machine (which is symlinked to /vagrant/www on your guest machine or rails-vagrant/www on your host machine).
 - It's probably nicer if you edit your hosts to set up a domain to point to 10.0.33.36 for easier access.
+- The environment on the default project is set to 'development'
+- This build uses [rbenv](https://github.com/sstephenson/rbenv) instead of rvm.
 - To create a new Rails project:
 
 ```bash
