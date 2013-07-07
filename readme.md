@@ -16,6 +16,7 @@ $ vagrant up
 
 ###Other Details
 - There is a default project created in /var/www on your new guest machine (which is symlinked to /vagrant/www on your guest machine or rails-vagrant/www on your host machine).
+- It's probably nicer if you edit your hosts to set up a domain to point to 10.0.33.36 for easier access.
 - To create a new Rails project:
 
 ```bash
