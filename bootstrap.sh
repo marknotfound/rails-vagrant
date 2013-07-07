@@ -39,11 +39,11 @@ then
     # Create a default project
     rails new /vagrant/www/default
 
-    cd /vagrant/www/default
-
-    # Start up the server as a daemon
-    rails server -d -e development -p 80
-
     # Set up the sites directory
     ln -s /vagrant/www /var/www
 fi
+
+cd /vagrant/www/default
+
+# Start up the default server as a daemon
+rails server -d -e development -p 80
